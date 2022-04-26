@@ -1,0 +1,83 @@
+.intro-head{
+    text-align: center;
+}
+.adopt{
+    text-align: center;
+}
+.upcoming{
+    text-align: center;
+}
+.upcoming-h2{
+    text-align: center;
+}
+
+.about-us{
+    text-align: center;
+}
+
+
+@media(min-width: 768px){
+    .intro-head{
+        text-align: center;
+    }
+    .adopt-container{
+        display: flex;
+    }
+    /* snowey container n pic  */
+    .snowey-container{
+        flex: 1; 
+        margin: 10px;
+
+    }
+    .snowey{
+        float: left;
+        height: 200px;
+    }
+    /* paws container n info  */
+    .paws-container{
+        flex: 1;
+        margin: 10px;
+    }
+    .paws{
+        float: left;
+        height: 200px;
+    }
+
+    /* patise container and pic info  */
+    .patsie-container{
+        flex: 1;
+        margin: 10px;
+    }
+    .patsie{
+        float: left;
+        height: 200px;
+    }
+    /* upcoming info  */
+    .upcoming-h2{
+        text-align: center;
+    }
+
+    .upcoming{
+        display: flex;
+    }
+    .adopt-a-cat{
+        flex: 2;
+        margin: 10px;
+    }
+    .adopt-pic{
+        float: left;
+    }
+    .corporate-container{
+        flex: 2;
+        margin: 10px;
+    }
+    .corporate-pic{
+        float: left;
+    }
+
+    /* about us section  */
+    .about-us{
+        text-align: center;
+        margin: 0% 20%;
+    }
+}

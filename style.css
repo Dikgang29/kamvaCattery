@@ -1,9 +1,22 @@
 body{
-    background-color: aqua;
+    background-image: url(./kittens-g8aa15a889_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     
 }
 
 a{
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 30px;
+    color: #ff8989;
+    align-content: center;
+    text-decoration-color:blue;
+    
+    
+    
+}
+
+.anchor{
+    text-align: center;
 }
